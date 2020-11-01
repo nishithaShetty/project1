@@ -2,8 +2,8 @@ import React from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Home from './components/Home';
 import Instructions from './components/Instructions';
-import Play from './components/quiz/Play';
-import QuizSummary from './components/quiz/QuizSummary';
+import Play from './components/Play';
+import QuizSummary from './components/QuizSummary';
 
 function App() {
   return (

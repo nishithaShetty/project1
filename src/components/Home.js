@@ -1,8 +1,6 @@
 import React,{Fragment} from 'react';
 import {Helmet} from 'react-helmet';
 import {Link} from 'react-router-dom';
-import CubeOutlineIcon from 'mdi-react/CubeOutlineIcon';
-
 import S from '../assets/img/simpson.jpg'
 
 

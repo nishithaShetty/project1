@@ -11,13 +11,13 @@ const Instructions =() =>(
 		      <h3> Instructions page</h3>
               <div className="instructionList">
               <ol className="design">
-                <li>Each game consist of 10 questions</li>
+                <li>Each game consists of 10 questions</li>
                 <li>Each question has 4 options </li> 
                 <li>Select the option which best answers the question by clicking it</li>
-                <li>Next Button takes you to the next Question</li> 
+                <li>Next button takes you to the next question</li> 
                 <li>Be sure to answer each question before clicking next </li>
-                <li>After we click an option, if the option is wrong its marked red and the right answer is marked green</li>       
-                <li>score sheet and number of correct answers are shown at the end of the game</li>       
+                <li>After you click an option, if the option is wrong its marked red and the right answer is marked green</li>       
+                <li>Score sheet and number of correct answers are shown at the end of the game</li>       
                 <li>Exit game - takes you to the initial stage </li>       
                 <li>At any time you can submit, it will take you to the summary page 
 </li>       
