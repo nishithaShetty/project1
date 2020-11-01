@@ -1,0 +1,138 @@
+.questions {
+  background-color: #f8f8f8;
+  border-left: 5px solid #ffb6c1;
+  width: 70%;
+  margin: $l auto 0 auto;
+  padding: $m $m;
+
+  .lifeline-container {
+    display: flex;
+    font-size: 1.2rem;
+    margin-bottom: $s;
+    justify-content: center;
+    line-height: 1.5;
+  }
+  h5 {
+    display: flex;
+    font-size: 1.2rem;
+    margin-bottom: $s;
+    justify-content: center;
+    line-height: 1.5;
+  }
+
+  .options-container {
+    display: inline-block;
+    width: 30%;
+    margin-left: 290px;
+  }
+
+  .option {
+    display: flex;
+    justify-content: center;
+    background-color: #ffb6c1;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: white;
+    cursor: pointer;
+
+    margin: $s auto;
+    padding: 0.7rem;
+    text-align: center;
+    width: 90%;
+  }
+
+  .option:hover {
+    background-color: darken(#1da1f2, 20%);
+  }
+}
+
+.option1 {
+  display: flex;
+  justify-content: space-around;
+  background-color: #57b846;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color: white;
+  cursor: pointer;
+
+  margin: $s auto;
+  padding: 0.7rem;
+  text-align: center;
+  width: 90%;
+}
+
+.option1:hover {
+  background-color: darken(#57b846, 20%);
+}
+
+.option2 {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ea4355;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color: white;
+  cursor: pointer;
+
+  margin: $s auto;
+  padding: 0.7rem;
+  text-align: center;
+  width: 90%;
+}
+
+.option2:hover {
+  background-color: darken (#ea4355, 20%);
+}
+
+.option-container button {
+  border: none;
+  color: #f8f8f8;
+  cursor: pointer;
+  margin-right: $s;
+  padding: $s;
+}
+
+.button-container {
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 1rem;
+  margin-left: 300px;
+}
+.button-container button {
+  border: none;
+  color: #f8f8f8;
+  cursor: pointer;
+  margin-right: $s;
+  padding: $s;
+}
+.button-container button:first-child {
+  background-color: darken(green, 10%);
+}
+.button-container button:first-child:hover {
+  background-color: darken(green, 20%);
+}
+.button-container button:nth-child(2) {
+  background-color: darken(#1da1f2, 10%);
+}
+.button-container button:nth-child(2):hover {
+  background-color: darken(#1da1f2, 20%);
+}
+.button-container button:nth-child(3) {
+  background-color: darken(#ea4355, 10%);
+}
+.button-container button:nth-child(3):hover {
+  background-color: darken(#ea4355, 20%);
+}
+
+.toast-valid {
+  background-color: green;
+  border-radius: 5px;
+  color: #f8f8f8;
+}
+
+.toast-invalid {
+  background-color: red;
+  color: #f8f8f8;
+  border-radius: 5px;
+}

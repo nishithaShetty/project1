@@ -1,0 +1,86 @@
+#home {
+  background-image: url("../../assets/img/bg8.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+
+  section {
+    background-color: rgba($color: #ff69b4, $alpha: 0.8);
+    height: 80%;
+    width: 35%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  h1 {
+    text-align: center;
+    color: #f8f8f8;
+    font-size: $l;
+    font-weight: 100px;
+  }
+
+  .instructionList {
+    background-color: #ffb6c1;
+  }
+
+  .play-button-container {
+    width: 100%;
+  }
+
+  a.play-button {
+    background-color: black;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    padding: $s;
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.3s linear all;
+  }
+
+  a.play-button:hover {
+    background-color: darken($color: #57b846, $amount: 10%);
+  }
+  a.play-button2 {
+    background-color: black;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    padding: $s;
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.3s linear all;
+    width: 40%;
+    margin-top: 30px;
+    margin-left: 240px;
+  }
+  a.play-button2:hover {
+    background-color: darken($color: #57b846, $amount: 10%);
+  }
+
+  h3 {
+    display: flex;
+    justify-content: center;
+  }
+  .instructionList {
+    display: flex;
+    justify-content: center;
+  }
+
+  ul.design {
+    list-style-type: square;
+  }
+}
+
+@media (max-width: 768px) {
+  #home section {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
